@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.logo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    padding-left:160px;
+}
+.logo p{
+    font-size: 16px;
+    font-family: "satisfy";
+    margin-left:13px;
+}
+#head{
+    display: flex;
+    justify-content:space-between;
+    background:linear-gradient(-90deg, #A3278F 0%, #E52F50 100%);
+    padding:13px 0;
+    color:white;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:1;
+
+}
+
+.nav-links ul li{
+    display: inline-flex;
+    padding-right: 32px;
+    text-decoration: none;
+}
+.nav-links ul li a{
+    text-decoration:none;
+    font-family: "jost";
+    font-size: 20.8px;
+    color:white;
+    padding:10px 32px;  
+}
+.nav-links ul li a:hover ,
+.nav-links ul li a.current{
+    color: white;
+     border-bottom:2px solid white;
+}
+
+#showcase{
+    background:url('../img/showcase-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    color:white;
+    background-attachment: fixed;
+    
+}
+#showcase .title-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:74px;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgb(0, 0,0,0.4);
+}
+.title h1{
+    
+    margin-top:64px;
+    font-size:64px;
+    margin-bottom:12px;
+    font-family: 'Jost', sans-serif;
+}
+.button{
+    display:inline-block;
+    margin-top:32px;
+    transition: 1s;
+}
+.button a{
+    padding:12px 64px;
+    background:white;
+    color:rgb(231, 31, 188);
+    text-decoration: none;
+    font-family:"jost";
+    border-radius: 5px;
+    font-size:1rem;
+    
+}
+.button a:hover{
+    background:linear-gradient(-90deg, #A3278F 0%, #E52F50 100%);
+    color:white;
+    transition:0.5s ease-in;
+}
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+#intro{
+     height:40vh;
+    background:linear-gradient(-90deg, #A3278F 0%, #E52F50 100%);
+    padding-top:3rem;
+   
+}
+.intro-text img{
+    width:100px;
+    border-radius: 50%;
+    border:2px rgb(255, 255, 255) solid;
+}
+.intro-text h1{
+    font-family: "pangolin";
+    color:snow;
+    margin-left:7rem;
+    margin-top:-4rem;
+    margin-bottom:2rem;
+    font-size:2rem;
+}
+.intro-text p{
+    font-family:"jost";
+    color: snow; 
+    font-size:1.5rem;
+    line-height: px;;
+    
+}
+.insta-li .img-1 img{
+    width:550px;
+}
+.insta-li{
+    display: flex;
+}
+.insta{
+    margin-top:3rem;
+    background:rgb(255, 255, 255);
+    margin-bottom:3rem;
+}
+.insta-link h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  color: rgb(231, 13, 122);
+  margin-left:4rem;
+  margin-bottom:1rem;
+  margin-top:6rem;
+}
+.insta-link p{
+    color: rgb(65, 7, 57);
+    font-family: "jost" ;
+    margin-left:4rem;
+  margin-bottom:4rem;
+  font-size: 1.5rem;;
+}
+.insta-link a{
+    display:inline-block;
+    background:linear-gradient(-90deg, #A3278F 0%, #E52F50 100%);
+    text-decoration: none;
+    margin-left:4rem;
+    padding:0.75rem 2rem;
+    color:white;
+    font-family: "jost";
+    border-radius: 5px;;
+
+}
+.insta-link a:hover{
+       opacity: 0.9;
+}
+.footer{
+    background:linear-gradient(-90deg, #A3278F 0%, #E52F50 100%);
+}
+.footer p{
+    font-size: 1rem;
+    color:white;
+    font-family:"jost";
+    text-align: center;
+    padding:2rem 0 0 0;
+}
+
+.flex-div{
+    display:flex;
+    margin-top:40px;
+}
+  
+.image-content img{
+    width:300px;
+    
+}
+
+.image-content{
+    background:white;
+    width:300px;
+    height:600px;
+    margin-left:70px;
+    box-shadow:7px 7px 15px 0px #d3cfcf;
+    margin-right:20px;
+    text-align: center;
+    padding:20px;
+    transition:1s;
+}
+ .image-content h1{
+   font-family:"jost";
+   color:rgb(77, 74, 74);
+   margin:20px auto;
+   font-weight:100;
+ }
+ .image-content i{
+    
+     margin-top:-10px;
+     padding-bottom: 10px; margin-right: 180px;
+     color:rgb(37, 68, 247);
+
+     
+ }
+ .image-content h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:-25px;
+    color:rgb(97, 64, 247);
+    margin-left: 30px;;
+ }
+ .image-content p{
+     margin:20px auto;
+     font-family:"jost";
+     color:rgb(138, 132, 132);
+ }
+ .image-content h3{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color:red;
+
+ }
+ .heart{
+    width:100px;
+    height:100px;
+    margin-left:80px;
+    margin-top:-5px;
+    transform:translate(-50%, -50%);
+    background:url(https://cssanimation.rocks/images/posts/steps/heart.png)no-repeat;
+    background-position: 0 0;
+    cursor:pointer;
+    animation:fave-heart 1s step(28);
+}
+.heart:hover{
+    background-position: -2800px 0;
+    transition:background 1s steps(28);
+}
+@keyframes fave-heart{
+    0%{
+        background-position:0 0;
+    }
+  100%{
+      background-position:-2800px 0;
+  }
+}
+.image-content-ld{
+    height:450px;
+}
+.image-content-ld-1{
+       height:490px;
+}
+.Text-info{
+    margin-top:40px;
+    
+}
+.Text-info a{
+
+    background:linear-gradient(-90deg, #A3278F 0%, #E52F50 100%);
+    color:white;
+    padding:10px 20px;
+    text-decoration: none;
+    font-family: "jost";
+    margin:50px 0 40px 380px;
+    display:inline-block;
+    text-align:center;
+    
+}
